@@ -16,11 +16,9 @@ function Carousel() {
     };
 
     const sliderImages = [
-        'slider-1.jpg',
-        'slider-2.jpg',
-        'slider-3.jpg',
-        'slider-4.jpg',
-        'slider-5.jpg'
+        'comfort_resized.jpg',
+        '50percentsale.jpg',
+        'comfort2_resized.jpg'
     ];
 
     const sliderItems = sliderImages.map((image) =>

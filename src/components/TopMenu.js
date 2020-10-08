@@ -3,6 +3,7 @@
 
 import React, { useContext } from 'react'
 import { Icon, Image, Input, Menu, Button } from 'semantic-ui-react'
+import { SignOut } from 'aws-amplify-react'
 import { Link } from "react-router-dom";
 import AppContext from '../context/AppContext'
 
@@ -26,6 +27,9 @@ function TopMenu() {
                                                         style={{ width: '40em' }} />
                     </Menu.Item>
                 </Menu.Menu>
+                <Menu.Item position='right'>
+                    <SignOut/>
+                </Menu.Item>
                 <Menu.Item position='right'>
                     <Link to={'/Checkout'}>
                         <Button

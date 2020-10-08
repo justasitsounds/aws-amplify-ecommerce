@@ -1,122 +1,204 @@
 [
     {
-        "id": 1001,
-        "name": "Echo Show 5 (Charcoal)",
-        "title": "Echo Show 5 – Compact smart display with Alexa - Charcoal",
-        "type": "echo",
-        "image": "/images/products/show5.jpg",
-        "mainImage": "/images/products/1001.jpg",
-        "stars": 5,
-        "price": 89.99,
-        "info": [
-            "Alexa can show you more – Compact 5.5” smart display ready to help manage your day, entertain at a glance, and connect you to friends and family.",
-            "Made to fit your life – Cook along to step-by-step recipes. Easily update to-do lists and calendars. Glance at weather and traffic on your way out.",
-            "Big entertainment – Ask Alexa to show you movie trailers or the news. Or listen to radio stations, podcasts, and audiobooks."
-        ]
-    },
-    {
-        "id": 1002,
-        "name": "Echo Show 5 (Sandstone)",
-        "title": "Echo Show 5 – Compact smart display with Alexa - Sandstone",
-        "type": "echo",
-        "image": "/images/products/show5w.jpg",
-        "mainImage": "/images/products/1002.jpg",
-        "stars": 5,
-        "price": 89.99,
-        "info": [
-            "Alexa can show you more – Compact 5.5” smart display ready to help manage your day, entertain at a glance, and connect you to friends and family.",
-            "Made to fit your life – Cook along to step-by-step recipes. Easily update to-do lists and calendars. Glance at weather and traffic on your way out.",
-            "Big entertainment – Ask Alexa to show you movie trailers or the news. Or listen to radio stations, podcasts, and audiobooks."
-        ]
-    },
-    {
-        "id": 1003,
-        "name": "Echo Show",
-        "title": "Echo Show (2nd Gen) - Smart display with Alexa - Charcoal",
-        "type": "echo",
-        "image": "/images/products/show.jpg",
-        "mainImage": "/images/products/1003.jpg",
-        "stars": 5,
-        "price": 179.99,
-        "info": [
-            "Bigger sound, better screen - Premium speakers with Dolby processing let you stream music and books in crisp, stereo sound. With a vibrant 10 inch HD screen for watching videos, movies and TV shows - in a new fabric design.",
-            "Your new digital photo frame – Personalize the screen with your photos or ask Alexa to show your photos.",
-            "Alexa can show you more - Watch movies and shows from Prime Video, stream live TV with a Hulu subscription, or music videos from Vevo. See song lyrics and album art with Amazon Music or stream from Apple Music, Spotify, Pandora, Audible and more."
-        ]
-    },
-    {
-        "id": 1004,
-        "name": "Echo Spot",
-        "title": "Echo Spot - Smart Alarm Clock with Alexa - Black",
-        "type": "echo",
-        "image": "/images/products/spot.jpg",
-        "mainImage": "/images/products/1004.jpg",
-        "stars": 5,
-        "price": 129.99,
-        "info": [
-            "Echo Spot is designed to fit anywhere in your home. Use 2nd generation far-field voice recognition to watch the news, see music lyrics, weather forecasts, to-do and shopping lists, browse and listen to Audible audiobooks, and more. All hands-free—just ask.",
-            "Echo Spot connects to Alexa, a cloud-based voice service to play music, read the news, answer questions, set music alarms, control smart home, and more.",
-            "Just ask to play a song, artist, or genre, and see lyrics with Amazon Music. Also, stream music from Apple Music, Spotify, Pandora, and other music services, or books from Audible."
-        ]
-    },
-    {
-        "id": 2001,
-        "name": "Echo Sub",
-        "title": "Echo Sub - Powerful subwoofer for your Echo",
-        "type": "companion",
-        "image": "/images/products/sub.jpg",
-        "mainImage": "/images/products/2001.jpg",
-        "stars": 4,
-        "price": 129.99,
-        "info": [
-            "Echo Sub delivers down-firing, 100W deep bass sound through a 6-inch woofer.",
-            "Pair with one Echo or Echo Plus (sold separately) to enjoy dynamic music that fills the room.",
-            "Simple to set up and use—just plug in, open the Alexa app, and wirelessly connect to your Echo device(s) to control music with your voice"
-        ]
-    },
-    {
-        "id": 2002,
-        "name": "Echo Link",
-        "title": "Echo Link - Stream hi-fi music to your stereo system",
-        "type": "companion",
-        "image": "/images/products/link.jpg",
-        "mainImage": "/images/products/2002.jpg",
+        "id": 3001,
+        "name": "Beige open neck asymmetric top",
+        "title": "Beige open neck asymmetric top – Lorem ipsum dolor sit amet",
+        "type": "women",
+        "image": "/images/products/beige-open-neck-asymmetric-top_790171_small.jpg",
+        "mainImage": "/images/products/beige-open-neck-asymmetric-top_790171_main_1000x1000.jpg",
         "stars": 3.5,
-        "price": 199.99,
-        "info": [
-            "Upgrade your stereo system with high-fidelity streaming music and Alexa.",
-            "Voice control music selection and playback with your compatible Echo device or the Alexa app.",
-            "Connect Echo Link to your stereo and group with other supported Echo devices to play music throughout your home."
+        "price": 70.00,
+        "details": [
+            "Long sleeve",
+            "Asymmetric",
+            "Button detail",
+            "Our model wears a UK 8 and is 175cm/5'9'' tall"
+        ],
+        "fabricCare":[
+            "20% Nylon (polyamide), 31% Polyester, 49% Viscose",
+            "Iron on reverse",
+            "Machine wash at max 40°C very gentle",
+            "Do not bleach",
+            "Dry flat",
+            "Do not dry clean"
         ]
     },
     {
-        "id": 2003,
-        "name": "Echo Link Amp",
-        "title": "Echo Link Amp - Stream and amplify hi-fi music to your speakers",
-        "type": "companion",
-        "image": "/images/products/amp.jpg",
-        "mainImage": "/images/products/2003.jpg",
-        "stars": 4,
-        "price": 299.99,
-        "info": [
-            "Upgrade your speakers with a built-in 60W x 2-channel amplifier, high-fidelity streaming music, and Alexa.",
-            "Voice control music selection and playback with your compatible Echo device or the Alexa app.",
-            "Connect Echo Link Amp to speakers and group with other supported Echo devices to play music throughout your home."
-        ]
-    },
-    {
-        "id": 2004,
-        "name": "Echo Connect",
-        "title": "Echo Connect – requires compatible Alexa-enabled device and home phone service",
-        "type": "companion",
-        "image": "/images/products/connect.jpg",
-        "mainImage": "/images/products/2004.jpg",
+        "id": 3002,
+        "name": "Black pleat check joggers",
+        "title": "Black pleat check joggers – Lorem ipsum dolor sit amet",
+        "type": "women",
+        "image": "/images/products/black-pleat-check-joggers_788829_small.jpg",
+        "mainImage": "/images/products/black-pleat-check-joggers_788829_main.jpg",
         "stars": 3.5,
-        "price": 34.99,
-        "info": [
-            "Connect your home phone to your compatible Alexa-enabled device to call any phone number, using just your voice.",
-            "Echo Connect uses your existing home phone service (analog landline or VoIP) to make and receive calls (carrier charges may apply). You can control if Alexa dials a ‘1’ for local calls or not.",
-            "Plug Echo Connect into your home phone jack, complete setup with the Alexa App or on alexa.amazon.com, and you’re ready to make and receive calls."
+        "price": 63.99,
+        "details": [
+            "Checked fabric",
+            "Cuffed hem",
+            "Tie waist",
+            "Our model wears a UK 8 and is 175cm/5'9'' tall"
+        ],
+        "fabricCare":[
+            "100% Cotton",
+            "Iron on reverse",
+            "Machine wash at max 40°C gentle",
+            "Do not bleach",
+            "Do not tumble dry",
+            "Do not dry clean"
+        ]
+    },
+    {
+        "id": 3003,
+        "name": "Black quilted padlock slouch handbag",
+        "title": "Black quilted padlock slouch handbag – Lorem ipsum dolor sit amet",
+        "type": "women",
+        "image": "/images/products/black-quilted-padlock-slouch-handbag_789850_small.jpg",
+        "mainImage": "/images/products/black-quilted-padlock-slouch-handbag_789850_main.jpg",
+        "stars": 3.5,
+        "price": 89.99,
+        "details": [
+            "Faux leather fabric outer",
+            "Padlock detail",
+            "Shoulder strap",
+            "RI branding",
+            "Gold tone hardware"
+        ],
+        "fabricCare":[
+            "10% Polyester, 90% Polyurethane"
+        ]
+    },
+    {
+        "id": 3004,
+        "name": "Long sleeve printed shirt",
+        "title": "Long sleeve printed shirt – Lorem ipsum dolor sit amet",
+        "type": "women",
+        "image": "/images/products/brown-long-sleeve-printed-shirt_788903_small.jpg",
+        "mainImage": "/images/products/brown-long-sleeve-printed-shirt_788903_main.jpg",
+        "stars": 3.5,
+        "price": 49.99,
+        "details": [
+            "Long sleeve",
+            "Animal print",
+            "Button down",
+            "Loose fit",
+            "Collar neck",
+            "Our model wears a UK 8 and is 175cm/5'9'' tall"
+        ],
+        "fabricCare": [
+            "100% Polyester",
+            "Iron on reverse",
+            "Machine wash at max 40°C",
+            "Do not bleach",
+            "Dry flat",
+            "Do not dry clean"
+        ]
+    },
+    {
+        "id": 4001,
+        "name": "Grey padded double pocket gilet",
+        "title": "Grey padded double pocket gilet",
+        "type": "men",
+        "image": "/images/products/grey-padded-double-pocket-gilet_395537_small.jpg",
+        "mainImage": "/images/products/grey-padded-double-pocket-gilet_395537_main.jpg",
+        "stars": 4.5,
+        "price": 79.99,
+        "details": [
+            "Zip front fastening",
+            "Funnel neck",
+            "Zip chest pockets",
+            "Sleeveless",
+            "Our model wears a UK M and is 185.5cm/6'1''"
+        ],
+        "fabricCare": [
+            "100% Nylon (polyamide)",
+            "Warm iron",
+            "Machine wash at max 40°C",
+            "Do not bleach",
+            "Do not tumble dry",
+            "Do not dry clean"
+        ]
+    },
+    {
+        "id": 4002,
+        "name": "White long sleeve check overshirt",
+        "title": "White long sleeve check overshirt",
+        "type": "men",
+        "image": "/images/products/white-long-sleeve-check-overshirt_395636_small.jpg",
+        "mainImage": "/images/products/white-long-sleeve-check-overshirt_395636_main.jpg",
+        "stars": 4.0,
+        "price": 89.99,
+        "details": [
+            "Long sleeve",
+            "Check print",
+            "Zip front",
+            "Double pockets",
+            "Collar neck",
+            "Regular fit",
+            "Our model wears a UK M and is 185.5cm/6'1'' tall"
+        ],
+        "fabricCare": [
+            "100% Cotton",
+            "Warm iron",
+            "Machine wash at max 40°C",
+            "Do not bleach",
+            "Do not tumble dry",
+            "Do not dry clean"
+        ]
+    },
+    {
+        "id": 4003,
+        "name": "Grey check tape side skinny trousers",
+        "title": "Grey check tape side skinny trousers",
+        "type": "men",
+        "image": "/images/products/grey-check-tape-side-skinny-trousers_396577_small.jpg",
+        "mainImage": "/images/products/grey-check-tape-side-skinny-trousers_396577_main.jpg",
+        "stars": 3.5,
+        "price": 64.99,
+        "details": [
+            "Check print",
+            "Tape side",
+            "Skinny fit",
+            "Concealed hook and zip fly fastening",
+            "Belt loops",
+            "Front slip pockets",
+            "Our model wears a UK 32 regular and is 186.5cm/6'1.5'' tall"
+        ],
+        "fabricCare": [
+            "98% Cotton, 2% Elastane",
+            "Cool iron",
+            "Machine wash at max 30°C gentle",
+            "Do not bleach",
+            "Do not tumble dry",
+            "Do not dry clean"
+        ]
+    },
+    {
+        "id": 4004,
+        "name": "Purple chest print slim fit T-shirt",
+        "title": "Purple chest print slim fit T-shirt",
+        "type": "men",
+        "image": "/images/products/purple-chest-print-slim-fit-t-shirt_395093_small.jpg",
+        "mainImage": "/images/products/purple-chest-print-slim-fit-t-shirt_395093_main.jpg",
+        "stars": 4.0,
+        "price": 24.99,
+        "details": [
+            "Chest print",
+            "Short sleeve",
+            "Crew neck",
+            "Slim fit",
+            "Our model wears a UK M and is 185.5cm/6'1'' tall"
+        ],
+        "fabricCare": [
+            "100% Cotton",
+            "Iron on reverse",
+            "Machine wash at max 40°C gentle",
+            "Do not bleach",
+            "Do not tumble dry",
+            "Do not dry clean"
         ]
     }
+
+
+
+
 ]

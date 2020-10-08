@@ -55,3 +55,100 @@ Once you've deleted your Amplify project you can delete your Cloud9 instance.
 ## License Summary
 
 This sample code is made available under the MIT-0 license. See the LICENSE file.
+
+
+
+---
+
+
+AWB 3 - goals
+Present a POC close-out deck that includes our standard package:
+  - Final architecture
+  - Prepare to present about Path to Production
+  - Key design elements (DynamoDB table key structure, capacity thresholds, container configuration, ML notebook, IoT Core Rules configuration, etc.)
+  - Key scaling and availability decisions
+  - AWS Service cost breakdown (for the poc itself plus insights into how to apply for larger scale)
+  - Be prepared for extensive technical Q&A
+
+
+
+producst:
+
+Women:
+Beige open neck asymmetric top
+
+Details
+ - Long sleeve
+ - Asymmetric 
+ - Button detail
+ - Our model wears a UK 8 and is 175cm/5'9'' tall
+
+Fabric & care
+ - 20% Nylon (polyamide), 31% Polyester, 49% Viscose
+ - Iron on reverse
+ - Machine wash at max 40°C very gentle
+ - Do not bleach
+ - Dry flat
+ - Do not dry clean
+
+---
+
+Black pleat check joggers
+
+black-pleat-check-joggers_788829_main.jpg
+black-pleat-check-joggers_788829_small.jpg
+
+
+Details
+ - Checked fabric
+ - Cuffed hem
+ - Tie waist
+ - Our model wears a UK 8 and is 175cm/5'9'' tall
+
+Fabric & care
+ - 100% Cotton
+ - Iron on reverse
+ - Machine wash at max 40°C gentle
+ - Do not bleach
+ - Do not tumble dry
+ - Do not dry clean
+
+---
+
+Black quilted padlock slouch handbag
+
+black-quilted-padlock-slouch-handbag_789850_main.jpg
+black-quilted-padlock-slouch-handbag_789850_small.jpg
+
+Details
+ - Faux leather fabric outer
+ - Padlock detail
+ - Shoulder strap
+ - RI branding
+ - Gold tone hardware
+
+Fabric & care
+ - 10% Polyester, 90% Polyurethane
+
+---
+
+Long sleeve printed shirt
+
+brown-long-sleeve-printed-shirt_788903_main.jpg
+brown-long-sleeve-printed-shirt_788903_small.jpg
+
+Details
+ - Long sleeve
+ - Animal print
+ - Button down
+ - Loose fit
+ - Collar neck
+ - Our model wears a UK 8 and is 175cm/5'9'' tall
+
+Fabric & care
+ - 100% Polyester
+ - Iron on reverse
+ - Machine wash at max 40°C
+ - Do not bleach
+ - Dry flat
+ - Do not dry clean

@@ -515,7 +515,7 @@
                 "pinpointRegion": "us-west-2"
             },
             "ap-southeast-2": {
-                "pinpointRegion": "us-west-2"
+                "pinpointRegion": "ap-southeast-2"
             },
             "ap-northeast-1": {
                 "pinpointRegion": "us-west-2"

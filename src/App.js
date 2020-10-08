@@ -3,9 +3,6 @@
 
 import React from 'react'
 import { Container, Header } from 'semantic-ui-react'
-import { withAuthenticator } from 'aws-amplify-react'
-
-import signUpConfig from './config/signUpConfig'
 
 import InitState from './pages/InitState'
 import TopMenu from './components/TopMenu'
@@ -20,30 +17,33 @@ function App() {
             <InitState/>
             <TopMenu />
             <Container text style={{ marginBottom: '1em' }}>
-                <Header as='h1' style={{ textAlign: 'center' }}>All things Alexa</Header>
+                <Header as='h1' style={{ textAlign: 'center' }}>Octank Retail</Header>
             </Container>
             <Container fluid>
                 <Carousel />
             </Container>
             <Container style={{ marginTop: '2em' }}>
-                <Header as='h2'>Smart displays</Header>
-                <p>Everything you love about Alexa, and now she can show you things. Get the weather forecast, watch the news, and see lyrics with Amazon Music.</p>
+                <Header as='h2'>Latest Fashion for Women</Header>
+                <p>Looking for something new and on-trend? Our collection of women’s new arrivals will have everyone asking you where you got your latest look from!</p>
+                <p>Whether you’re looking for a new outfit, complete with accessories or just want to stay ahead of the fash-pack, you’ll find it in our just arrived edit. Shop the hottest new arrivals, right here, right now…</p>
             </Container>
             <Container style={{ marginTop: '2em' }}>
-                <ItemTable type='echo' />
+                <ItemTable type='women' />
             </Container>
             <Container style={{ marginTop: '2em' }}>
-                <Header as='h2'>Echo companions</Header>
-                <p>Enjoy richer, more dynamic music with devices designed to work with Echo smart speakers or your existing sound system.</p>
+                <Header as='h2'>Latest Fashion for Men</Header>
+                <p>Looking for something new and on-trend? Our collection of men’s new arrivals will have everyone asking you where you got your latest look from!</p>
+                <p>Whether you’re looking for a new outfit, complete with accessories or just want to stay ahead of the fash-pack, you’ll find it in our just arrived edit. Shop the hottest new arrivals, right here, right now…</p>
             </Container>
             <Container style={{ marginTop: '2em' }}>
-                <ItemTable type='companion' />
+                <ItemTable type='men' />
             </Container>
         </div>
     );
 }
 
-export default withAuthenticator(App, { usernameAttributes: 'email', signUpConfig });
+export default App
+// export default withAuthenticator(App, { usernameAttributes: 'email', signUpConfig });
 
 const styles = {
     marginLeft: '1em',

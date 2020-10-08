@@ -26,8 +26,13 @@ function Product(props) {
     if (_product.length === 1) product = _product[0]
 
     if (product) {
-        var features = product.info.map((item) => {
-            return <li key={item.length}>{item}</li>
+        var features = product.details.map((item) => {
+            let k = `feature_${item.length}`
+            return <li key={k}>{item}</li>
+        })
+        var care = product.fabricCare.map((item) => {
+            let k = `care_${item.length}`
+            return <li key={k}>{item}</li>
         })
     }
 
@@ -59,18 +64,22 @@ function Product(props) {
                     </Grid.Column>
                     <Grid.Column width={7}>
                         <Header as='h2'>{product.title}</Header>
-                        by Amazon
                     <Divider />
-                        <Grid columns={3}>
+                        <Grid columns={2}>
                             <Grid.Column width={1} style={{ marginRight: '5px' }}>Price:</Grid.Column>
                             <Grid.Column width={2} textAlign='left'><PriceText>${product.price}</PriceText></Grid.Column>
-                            <Grid.Column verticalAlign='bottom'><img src='/images/misc/prime.png' alt='prime' /></Grid.Column>
+                            {/* <Grid.Column verticalAlign='bottom'><img src='/images/misc/prime.png' alt='prime' /></Grid.Column> */}
                         </Grid>
                         <StockText>In Stock.</StockText>
                         <BoldText>Want it delivered by tomorrow?</BoldText>
                         <InfoText>
+                            <Header as='h3'>Details</Header>
                             <ul>
                                 {features}
+                            </ul>
+                            <Header as='h3'>Fabric Care</Header>
+                            <ul>
+                                {care}
                             </ul>
                         </InfoText>
                     </Grid.Column>

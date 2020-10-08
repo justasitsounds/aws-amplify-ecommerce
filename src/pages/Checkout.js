@@ -4,6 +4,9 @@
 import React, {useState, useEffect, useContext} from 'react'
 import { Grid } from 'semantic-ui-react'
 import {Analytics} from 'aws-amplify';
+import { withAuthenticator } from 'aws-amplify-react'
+
+import signUpConfig from './../config/signUpConfig'
 
 import AppContext from '../context/AppContext'
 
@@ -81,7 +84,7 @@ function Checkout(props) {
 
             clearCart()
 
-            props.history.push('/')
+            props.history.push('/PlacedOrder')
         }
     }, [orderComplete, props.history, clearCart, totalPurchase]);
 
@@ -116,7 +119,8 @@ function Checkout(props) {
     )
 }
 
-export default Checkout
+export default withAuthenticator(Checkout, { usernameAttributes: 'email', signUpConfig });
+// export default Checkout
 
 const mainDiv = {
     marginLeft: '5em',

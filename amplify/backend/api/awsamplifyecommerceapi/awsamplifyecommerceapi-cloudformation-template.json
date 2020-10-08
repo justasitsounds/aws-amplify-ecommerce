@@ -49,7 +49,8 @@
             "Properties": {
               "PolicyName": "PolicyAPIGWawsamplifyecommerceapiauth",
               "Roles": [
-                {"Ref": "authRoleName"}
+                {"Ref": "authRoleName"},
+                {"Ref": "unauthRoleName"}
               ],
               "PolicyDocument": {
                 "Version": "2012-10-17",
