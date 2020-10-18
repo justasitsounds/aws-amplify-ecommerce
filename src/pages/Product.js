@@ -68,7 +68,6 @@ function Product(props) {
                         <Grid columns={2}>
                             <Grid.Column width={1} style={{ marginRight: '5px' }}>Price:</Grid.Column>
                             <Grid.Column width={2} textAlign='left'><PriceText>${product.price}</PriceText></Grid.Column>
-                            {/* <Grid.Column verticalAlign='bottom'><img src='/images/misc/prime.png' alt='prime' /></Grid.Column> */}
                         </Grid>
                         <StockText>In Stock.</StockText>
                         <BoldText>Want it delivered by tomorrow?</BoldText>

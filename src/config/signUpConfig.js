@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: MIT-0
 
 const signUpConfig = {
-  header: 'Create an ACME Store Account',
+  header: 'Create an Octank Store Account',
   hiddenDefaults: ['phone_number'],
   defaultCountryCode: '1',
   signUpFields: [

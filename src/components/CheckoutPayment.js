@@ -6,7 +6,12 @@ import { Card, Button, Divider, Grid } from 'semantic-ui-react'
 import styled from 'styled-components'
 
 function CheckoutPayment(props) {
-    const {total} = props
+    const {total, cart} = props
+    console.log('cart', cart)
+
+    const cartItems = cart.items.map((item)=>{
+        return <SummaryText>{item.quantity} x {item.name} ${item.price}</SummaryText>
+    })
 
     return(
         <div>
@@ -17,12 +22,18 @@ function CheckoutPayment(props) {
                     <BoldText>Order Summary</BoldText>
                     <Grid columns={2}>
                         <Grid.Row>
-                            <Grid.Column floated='left' width={8}>
+                            <Grid.Column width={6}>
                                 <SummaryText>Items:</SummaryText>
+                            </Grid.Column>
+                            <Grid.Column width={10} textAlign='right'>
+                                {cartItems}
+                            </Grid.Column>
+                        </Grid.Row>
+                        <Grid.Row>
+                            <Grid.Column width={6}>
                                 <SummaryText>Shipping & handling:</SummaryText>
                             </Grid.Column>
-                            <Grid.Column floated='left' textAlign='right' width={1}>
-                                <SummaryText>${total}</SummaryText>
+                            <Grid.Column width={10} textAlign='right'>
                                 <SummaryText>$0.00</SummaryText>
                             </Grid.Column>
                         </Grid.Row>

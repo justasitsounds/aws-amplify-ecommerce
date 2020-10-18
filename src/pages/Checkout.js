@@ -4,19 +4,16 @@
 import React, {useState, useEffect, useContext} from 'react'
 import { Grid } from 'semantic-ui-react'
 import {Analytics} from 'aws-amplify';
-import { withAuthenticator } from 'aws-amplify-react'
+import { withAuthenticator, AmplifyTheme } from 'aws-amplify-react'
 
 import signUpConfig from './../config/signUpConfig'
 
 import AppContext from '../context/AppContext'
 
-import InitState from './InitState'
+// import InitState from './InitState'
 import CheckoutBanner from '../components/CheckoutBanner'
 import CheckoutSummary from '../components/CheckoutSummary'
 import CheckoutPayment from '../components/CheckoutPayment'
-
-// var product_data = require('../products.json');
-// const uuidv4 = require('uuid/v4');
 
 function Checkout(props) {
     const [ordering, setOrdering] = useState(false)
@@ -84,14 +81,14 @@ function Checkout(props) {
 
             clearCart()
 
-            props.history.push('/PlacedOrder')
+            props.history.push('/ordercomplete')
         }
     }, [orderComplete, props.history, clearCart, totalPurchase]);
 
     return (
         <div>
-            <InitState/>
-            <CheckoutBanner quantity={quantText}/>
+            {/* <InitState/> */}
+            <CheckoutBanner quantity={quantText} message='Checkout' />
             <div style={mainDiv}>
                 <Grid columns={2}>
                     <Grid.Row>
@@ -119,8 +116,7 @@ function Checkout(props) {
     )
 }
 
-export default withAuthenticator(Checkout, { usernameAttributes: 'email', signUpConfig });
-// export default Checkout
+export default withAuthenticator(Checkout, { usernameAttributes: 'email', theme: AmplifyTheme, signUpConfig });
 
 const mainDiv = {
     marginLeft: '5em',

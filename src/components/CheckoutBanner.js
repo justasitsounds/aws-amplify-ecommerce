@@ -12,11 +12,11 @@ function CheckoutBanner(props) {
             <Grid.Row>
                 <Grid.Column width={2}>
                     <Link to='/'>
-                        <Image src='/images/store-logo-2.png' style={logoStyle} />
+                        <Image src='/images/store-logo-2_octank.png' style={logoStyle} />
                     </Link>
                 </Grid.Column>
                 <Grid.Column width={12} verticalAlign='middle' textAlign='center' style={headerStyle}>
-                    <Header as='h1' textAlign='center'>Checkout (<QuantityText>{props.quantity}</QuantityText>)</Header>
+                    <Header as='h1' textAlign='center'>{props.message} {props.quantity ? <QuantityText>{props.quantity}</QuantityText> : null }</Header>
                 </Grid.Column>
             </Grid.Row>
         </Grid>

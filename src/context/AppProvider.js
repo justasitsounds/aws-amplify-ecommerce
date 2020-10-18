@@ -18,7 +18,7 @@ const AppProvider = ({children}) => {
     const addItemToCart = (item, quantity) => {
         setAppContext(prevState => {
             var newItems = Object.assign({}, prevState)
-            newItems.cart.items.push({id: item.id, quantity: quantity})
+            newItems.cart.items.push({id: item.id, quantity: quantity, name: item.name, price: item.price})
             return {
                 ...prevState,
                 cart: {items: newItems.cart.items}

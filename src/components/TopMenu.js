@@ -3,7 +3,7 @@
 
 import React, { useContext } from 'react'
 import { Icon, Image, Input, Menu, Button } from 'semantic-ui-react'
-import { SignOut } from 'aws-amplify-react'
+import { Greetings } from 'aws-amplify-react'
 import { Link } from "react-router-dom";
 import AppContext from '../context/AppContext'
 
@@ -15,7 +15,7 @@ function TopMenu() {
             <Menu fixed='top' stackable borderless inverted style={menuStyle}>
                 <Menu.Item header>
                     <Link to='/'>
-                        <Image src='/images/store-logo.svg' style={{ marginRight: '1.5em', marginLeft: '4em' }} />
+                        <Image src='/images/store-logo-2_octank.png' style={{ marginRight: '1.5em', marginLeft: '4em' }} />
                     </Link>
                 </Menu.Item>
                 <Menu.Menu>
@@ -28,7 +28,7 @@ function TopMenu() {
                     </Menu.Item>
                 </Menu.Menu>
                 <Menu.Item position='right'>
-                    <SignOut/>
+                    <Greetings/>
                 </Menu.Item>
                 <Menu.Item position='right'>
                     <Link to={'/Checkout'}>

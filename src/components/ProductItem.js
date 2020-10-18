@@ -37,11 +37,10 @@ function ProductItem(props) {
                         </Link>
                         <Container style={{ paddingLeft: '2em' }}>
                             <LinkStyle><Link to={'/Product/' + props.item.id}>{props.item.name}</Link></LinkStyle>
-                            <StoreText>Amazon</StoreText>
-                            {stars}
-                            <Grid columns={2}>
-                                <Grid.Column width={3}><PriceText>${props.item.price}</PriceText></Grid.Column>
-                                <Grid.Column verticalAlign='bottom'><img src='/images/misc/prime.png' alt='prime'/></Grid.Column>
+                            <PriceText>${props.item.price}</PriceText>
+                            
+                            <Grid columns={1}>
+                                <Grid.Column textAlign='center' >{stars}</Grid.Column>
                             </Grid>
                         </Container>
                     </Grid.Column>
@@ -55,11 +54,6 @@ export default ProductItem
 
 const LinkStyle = styled.div`
     font-size: 1em;
-`;
-
-const StoreText = styled.div`
-    font-size: 9pt;
-    padding-top: 1em;
 `;
 
 const PriceText = styled.div`

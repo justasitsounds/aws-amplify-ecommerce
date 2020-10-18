@@ -24,6 +24,7 @@ function InitState() {
     useEffect(() => {
         Auth.currentAuthenticatedUser()
             .then(data => {
+                console.log("user authenticated")
                 if (user === null) {
                     if (!process.env.NODE_ENV || process.env.NODE_ENV === 'development') {
                         console.log(data)
